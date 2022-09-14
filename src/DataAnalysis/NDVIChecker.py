@@ -14,11 +14,11 @@ numpy.set_printoptions(threshold=numpy.inf)
 #Script for segmentation and data extraction of images under Infragram
 
 
-onlyWaterBoxCropedImagePath = "./cropedImages/onlyWaterBox/"
-nutritionBoxCroppedImagePath = "./cropedImages/nutritionBox/"
+onlyWaterBoxCropedImagePath = "/home/piuser/NDVI python/cropedImages/onlyWaterBox"
+nutritionBoxCroppedImagePath = "/home/piuser/NDVI python/cropedImages/nutritionBox"
 
-onlyWaterBoxNDVI_ImagePath = "./NDVI_Images/onlyWaterBox/"
-nutritionBoxNDVI_ImagePath = "./NDVI_Images/nutritionBox/"
+onlyWaterBoxNDVI_ImagePath = "/home/piuser/NDVI python/NDVI_Images/onlyWaterBox"
+nutritionBoxNDVI_ImagePath = "/home/piuser/NDVI python/NDVI_Images/nutritionBox"
 
 onlyWaterBoxGraphValues = defaultdict(list)
 nutritionBoxGraphValues = defaultdict(list)
